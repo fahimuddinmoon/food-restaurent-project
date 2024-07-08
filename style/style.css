@@ -1,0 +1,100 @@
+
+#hero{
+    height: 650px;
+    background-image:linear-gradient(0deg,
+    rgba(5, 1, 1, 0.103),
+    rgba(19, 4, 4, 0.87)),
+     url("../assets/hero-bg.png");
+   
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#hero .hero1{
+    width: 600px;
+
+    
+}
+.subtitle{
+    font-size:20px ;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.952);
+    font width: 500px;
+    line-height: 5px;
+    padding-bottom: 15px;
+    
+}
+.headding{
+    font-size:30px;
+   padding-bottom: 10px;
+   color:rgb(255, 255, 255) ;
+   justify-content: center;
+   text-align: center;
+}
+.paragraph{
+    color: rgb(235, 231, 231);
+    text-align: center;
+    
+}
+.btn{
+    text-align:center;
+    padding: 10px 25px;
+    margin: 10px;
+    color: rgb(233, 237, 240);
+    font-size: 12px;
+    background-color: rgb(101, 187, 16);
+    border: none;
+    border-radius: 10px;
+    
+    
+}
+.btn1{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+#cardbox{
+    width: 850px;
+    margin: 30px auto;
+}
+#cardbox .title{
+    font-size: 28px;
+    color: black;
+    font-weight: 700px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#cardbox .the{
+    color: rgba(32, 32, 32, 0.582);
+    font-size: 20px;
+    margin: 0px;
+}
+.card{
+ max-width: 250px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+}
+.card .image-box{
+ width: 250px;
+ padding-bottom: 10px;
+}
+.card .image-box img{
+width: 100%;
+}
+.pizza{
+    background-color: rgba(178, 233, 192, 0.747);
+    padding: 3px 20px;
+    border-radius: 10px;
+}
+.fahim{
+   
+    display: flex;
+    justify-content: space-between;
+}
